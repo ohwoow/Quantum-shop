@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__container">
+                <div class="logo"><a href="#">Quantum</a></div>
+
+                <form action="/" method="GET" class="header__search">
+
+                    <div class="header__search-input">
+                        <input type="search" class="input-search" placeholder="Search goods" required>
+                    </div>
+
+                    <div class="header__search-dropdown">
+                       
+                        <div class="header-select">
+                            <button class="header-select__title">Category</button>
+                            <div class="header-select__dropdown">
+                                <div class="header-select__dropdown-item">Mobile</div>
+                                <div class="header-select__dropdown-item">Tablet</div>
+                                <div class="header-select__dropdown-item">Laptop</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="header__search-button">
+                        <button type="submit" class="search-button">
+                            <img src="assets/img/search.svg" width="13" alt="Поиск">
+                        </button>
+                    </div>
+                </form>
+                <div class="header__button">
+                    <button class="header__button-item header__button-item--cart">
+                        <img src="assets/img/cart.svg" alt="" class="button-item__icon">
+                        <span class="item-count">2 items</span>
+                    </button>
+                    <button class="header__button-item">
+                        <img src="assets/img/wishlist.svg" alt="" class="button-item__icon">
+                        <span class="item-count">Wish List</span>
+                    </button>
+                    <button class="header__button-item">
+                        <img src="assets/img/user.svg" alt="" class="button-item__icon">
+                        <span class="item-count">Sing In</span>
+                    </button>
+                </div>
+        </div>
+
+    <nav class="header__nav">
+        <div class="header__nav-wrapper">
+            <div class="header__nav-category">
+                <button class="header__megaMenu-link">
+                    <span class="megaMenu-link__gamburger"></span>
+                    <span class="megaMenu-link__text">All Categories</span>
+                </button>
+            </div>
+
+            <div class="header__nav-deals">
+                <a href="#" class="nav-deals__link">Super Deals</a>
+                <a href="#" class="nav-deals__link">Featured Brands</a>
+                <a href="#" class="nav-deals__link">Collections</a>
+                <a href="#" class="nav-deals__link">Bestselling</a>
+            </div>
+
+            <div class="header__nav-select">
+                <div class="header__nav-dropdown">
+                    
+                    <div class="header-nav__select">
+                        <button class="header-nav__select-title">Help</button>
+                        <div class="header-select__dropdown header-nav-select__dropdown">
+                            <div class="header-select__dropdown-item">About</div>
+                            <div class="header-select__dropdown-item">Contacts</div>
+                            <div class="header-select__dropdown-item">Location</div>
+                        </div>
+                    </div>
+                    <div class="header-nav__select">
+                        <button class="header-nav__select-title">USD</button>
+                        <div class="header-select__dropdown" id="select-nav-usd">
+                            <div class="header-select__dropdown-item">RUB</div>
+                            <div class="header-select__dropdown-item">UAH</div>
+                            <div class="header-select__dropdown-item">EUR</div>
+                        </div>
+                    </div>
+                    <div class="header-nav__select header-nav__select--big ">
+                        <button class="header-nav__select-title">Langugae</button>
+                        <div class="header-select__dropdown" id="select-nav-lang">
+                            <div class="header-select__dropdown-item">En</div>
+                            <div class="header-select__dropdown-item">Ru</div>
+                            <div class="header-select__dropdown-item">Deutch</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="header__nav-btn">
+                <button class="toggle-btn" type="button">
+                    <span></span>
+                </button>
+                
+            </div>
+        </div>
+    </nav>
+    </header>
+
+     
+
+    <main>
+
+        <section class="slider">
+            <div class="container">
+                <div class="slider__inner">
+                    <div class="slider__item" style="background-image: url(assets/img/slide-img.jpg);">
+                        <h1 class="slider__title">The Universe Through A Child S Eyes</h1>
+                        <a href="#" class="slider__subtitle">Start sales</a>
+                    </div>
+                    <div class="slider__item" style="background-image: url(assets/img/slide-img-2.jpg);">
+                        <h1 class="slider__title">Play video games with friends!</h1>
+                        <a href="#" class="slider__subtitle">Start sales</a>
+                    </div>
+                    <div class="slider__item" style="background-image: url(assets/img/slide-img.jpg);">
+                        <h1 class="slider__title">The Universe Through A Child S Eyes</h1>
+                        <a href="#" class="slider__subtitle">Start sales</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="popular-goods">
+            <div class="container">
+                <div class="popular-goods__inner">
+                        <div class="popular-goods__item">
+                            <a href="#">
+                                <h3 class="goods__item-title">Astronomy Or Astrology</h3>
+                                <span class="goods__item-subtitle">Start sales</span>
+                                <img src="assets/img/headphones.png" alt="">
+                            </a>
+                        </div>
+
+                    <div class="popular-goods__item popular-goods__item-middle">
+                        <a href="#">
+                            <div class="goods__item-title goods__item-title--middle">The Basics Of Buying A Telescope</div>
+                            <span class="goods__item-subtitle goods__item-subtitle--middle">Astronomy Or Astrology</span>
+                        </a>
+                    </div>
+
+                    <div class="popular-goods__list">
+                        <a href="#">
+                            <div class="goods__list-item">
+                                <img src="assets/img/stick.png" alt="">
+                                <div class="goods__item-text">
+                                    Getting Free Publicity For Your Business
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="goods__list-item">
+                                <img src="assets/img/wriswatch.png" alt="">
+                                <div class="goods__item-text">
+                                    How Plasma Tvs And  Lcd Tvs Differ
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="main-content">
+            <div class="container">
+                <div class="main-content__wrapper">
+                    <div class="sidebar-menu">
+                        <ul class="sidebar-menu__list">
+                            <li class="sidebar-menu__item">
+                                <img src="assets/img/desctop.svg" alt="desctop" class="sidebar-menu__item-icon">
+                                <a href="#" class="sidebar-menu__item-name">Computers</a>
+                            </li>
+                            <li class="sidebar-menu__item">
+                                <img src="assets/img/imac.svg" alt="imac" class="sidebar-menu__item-icon">
+                                <a href="#" class="sidebar-menu__item-name">Apple Computers</a>
+                            </li>
+                            <li class="sidebar-menu__item">
+                                <img src="assets/img/laptop.svg" alt="laptop" class="sidebar-menu__item-icon">
+                                <a href="#" class="sidebar-menu__item-name">Laptops</a>
+                            </li>
+                            <li class="sidebar-menu__item">
+                                <img src="assets/img/keyboard.svg" alt="keyboard" class="sidebar-menu__item-icon">
+                                <a href="#" class="sidebar-menu__item-name">Friends</a>
+                            </li>
+                            <li class="sidebar-menu__item">
+                                <img src="assets/img/memory.svg" alt="memory" class="sidebar-menu__item-icon">
+                                <a href="#" class="sidebar-menu__item-name">Computer Components</a>
+                            </li>
+                            <li class="sidebar-menu__item">
+                                <img src="assets/img/speaker.svg" alt="" class="sidebar-menu__item-icon">
+                                <a href="#" class="sidebar-menu__item-name">Accessories</a>
+                            </li>
+                            <li class="sidebar-menu__item">
+                                <img src="assets/img/phone.svg" alt="phone" class="sidebar-menu__item-icon">
+                                <a href="#" class="sidebar-menu__item-name">Cell Phones</a>
+                            </li>
+                            <li class="sidebar-menu__item">
+                                <img src="assets/img/tv.svg" alt="tv" class="sidebar-menu__item-icon">
+                                <a href="#" class="sidebar-menu__item-name">TV & Video</a>
+                            </li>
+                            <li class="sidebar-menu__item">
+                                <img src="assets/img/game.svg" alt="game" class="sidebar-menu__item-icon">
+                                <a href="#" class="sidebar-menu__item-name">Game consoles</a>
+                            </li>
+                            <li class="sidebar-menu__item">
+                                <img src="assets/img/watch.svg" alt="watch" class="sidebar-menu__item-icon">
+                                <a href="#" class="sidebar-menu__item-name">Watches</a>
+                            </li>
+                        </ul>
+
+                        <div class="promo">
+                            <div class="promo__front">
+                                <h2 class="promo__title">Look Up In The Sky</h2>
+                                <div class="promo__text">Astronomy Or Astrology</div>
+                            </div>
+                        </div>
+                     </div>
+
+                    <div class="cards">
+                        <div class="cards__header">
+                            <div class="cards__header-tab">
+                                <a href="#">Most Popular</a>
+                            </div>
+                            <div class="cards__header-tab">
+                                <a href="#">My communitites</a>
+                            </div>
+                        </div>
+                        <div class="cards__list">
+                            <div class="cards__list-item">
+                                <div class="cards__list-item-header">
+                                    <div class="discount">Sale 10%</div>
+                                    <div class="list">
+                                        <button class="list__btn">
+                                            <img src="assets/img/list.svg" alt="" class="list-icon">
+                                        </button>
+                                        <button class="list__btn">
+                                            <img src="assets/img/wishlist-empty.svg" alt="" class="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="cards__list-item-descr">
+                                   <a href="#"> <img src="assets/img/product-iphone.png" alt="iphone"> </a>
+                                    <a href="#" class="item-descr__name">Asus ZenFone Go ZB452KG (black and white)</a>
+                                    <div class="rating">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-half.svg" alt="">
+                                        <img src="assets/img/star-empty.svg" alt="">
+                                        <div class="rating__num">12</div>
+                                    </div>
+                                    <div class="price">
+                                        <span class="price__num">$ 384.4</span>
+                                        <button class="price__btn">
+                                            <img src="assets/img/cart-full.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cards__list-item">
+                                <div class="cards__list-item-header">
+                                    <div class="discount">Sale 10%</div>
+                                    <div class="list">
+                                        <button class="list__btn">
+                                            <img src="assets/img/list.svg" alt="" class="list-icon">
+                                        </button>
+                                        <button class="list__btn">
+                                            <img src="assets/img/wishlist-empty.svg" alt="" class="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="cards__list-item-descr">
+                                   <a href="#"> <img src="assets/img/product-iphone-2.png" alt="iphone"> </a>
+                                    <a href="#" class="item-descr__name">Asus ZenFone Go ZB452KG (black and white)</a>
+                                    <div class="rating">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-half.svg" alt="">
+                                        <img src="assets/img/star-empty.svg" alt="">
+                                        <div class="rating__num">12</div>
+                                    </div>
+                                    <div class="price">
+                                        <span class="price__num">$ 384.4</span>
+                                        <button class="price__btn">
+                                            <img src="assets/img/cart-full.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                            <div class="cards__list-item">
+                                <div class="cards__list-item-header">
+                                    <div class="discount">Sale 10%</div>
+                                    <div class="list">
+                                        <button class="list__btn">
+                                            <img src="assets/img/list.svg" alt="" class="list-icon">
+                                        </button>
+                                        <button class="list__btn">
+                                            <img src="assets/img/wishlist-empty.svg" alt="" class="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="cards__list-item-descr">
+                                   <a href="#"> <img src="assets/img/product-iphone-3.png" alt="iphone"> </a>
+                                    <a href="#" class="item-descr__name">Asus ZenFone Go ZB452KG (black and white)</a>
+                                    <div class="rating">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-half.svg" alt="">
+                                        <img src="assets/img/star-empty.svg" alt="">
+                                        <div class="rating__num">12</div>
+                                    </div>
+                                    <div class="price">
+                                        <span class="price__num">$ 384.4</span>
+                                        <button class="price__btn">
+                                            <img src="assets/img/cart-full.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <div class="cards__list-item">
+                                <div class="cards__list-item-header">
+                                    <div class="discount">Sale 10%</div>
+                                    <div class="list">
+                                        <button class="list__btn">
+                                            <img src="assets/img/list.svg" alt="" class="list-icon">
+                                        </button>
+                                        <button class="list__btn">
+                                            <img src="assets/img/wishlist-empty.svg" alt="" class="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="cards__list-item-descr">
+                                   <a href="#"> <img src="assets/img/product-iphone-4.png" alt="iphone"> </a>
+                                    <a href="#" class="item-descr__name">Asus ZenFone Go ZB452KG (black and white)</a>
+                                    <div class="rating">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-half.svg" alt="">
+                                        <img src="assets/img/star-empty.svg" alt="">
+                                        <div class="rating__num">12</div>
+                                    </div>
+                                    <div class="price">
+                                        <span class="price__num">$ 384.4</span>
+                                        <button class="price__btn">
+                                            <img src="assets/img/cart-full.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <div class="cards__list-item">
+                                <div class="cards__list-item-header">
+                                    <div class="discount">Sale 10%</div>
+                                    <div class="list">
+                                        <button class="list__btn">
+                                            <img src="assets/img/list.svg" alt="" class="list-icon">
+                                        </button>
+                                        <button class="list__btn">
+                                            <img src="assets/img/wishlist-empty.svg" alt="" class="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="cards__list-item-descr">
+                                   <a href="#"> <img src="assets/img/product-iphone-5.png" alt="iphone"> </a>
+                                    <a href="#" class="item-descr__name">Asus ZenFone Go ZB452KG (black and white)</a>
+                                    <div class="rating">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-half.svg" alt="">
+                                        <img src="assets/img/star-empty.svg" alt="">
+                                        <div class="rating__num">12</div>
+                                    </div>
+                                    <div class="price">
+                                        <span class="price__num">$ 384.4</span>
+                                        <button class="price__btn">
+                                            <img src="assets/img/cart-full.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>  
+
+                            <div class="cards__list-item">
+                                <div class="cards__list-item-header">
+                                    <div class="discount">Sale 10%</div>
+                                    <div class="list">
+                                        <button class="list__btn">
+                                            <img src="assets/img/list.svg" alt="" class="list-icon">
+                                        </button>
+                                        <button class="list__btn">
+                                            <img src="assets/img/wishlist-empty.svg" alt="" class="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="cards__list-item-descr">
+                                   <a href="#"> <img src="assets/img/product-iphone-6.png" alt="iphone"> </a>
+                                    <a href="#" class="item-descr__name">Asus ZenFone Go ZB452KG (black and white)</a>
+                                    <div class="rating">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-full.svg" alt="">
+                                        <img src="assets/img/star-half.svg" alt="">
+                                        <img src="assets/img/star-empty.svg" alt="">
+                                        <div class="rating__num">12</div>
+                                    </div>
+                                    <div class="price">
+                                        <span class="price__num">$ 384.4</span>
+                                        <button class="price__btn">
+                                            <img src="assets/img/cart-full.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div> 
+                    </div>  
+                </div>
+            </div>
+        </section>
+    </main>
+
+   
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer-container">
+                <div class="footer__header">
+
+                    <div class="logo logo--footer"><a href="#">Quantum</a></div>
+
+                    <nav class="footer__nav">
+                        <div  class="footer__nav-link footer__nav-link--dropdown">
+                            <a href="#">Shop</a> 
+                            <div class="footer__nav-dropdown">
+                                <a href="#">Shop</a>
+                                <a href="#">Shop</a>
+                            </div>
+                        </div>
+                        <a href="#" class="footer__nav-link">Journal</a>
+                        <a href="#" class="footer__nav-link">About</a>
+                        <a href="#" class="footer__nav-link">Contacts</a>
+                    </nav>
+
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <img src="assets/img/facebook.svg" width="8" height="15" alt="facebook">
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <img src="assets/img/twitter.svg" width="14" height="12" alt="twitter">
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <img src="assets/img/instagram.svg" width="16" height="16" alt="instagram">
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <img src="assets/img/youtube.svg" width="16" height="12" alt="youtube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-container">
+            <div class="footer__info">
+                <div class="footer__copyright">
+                    <span class="footer__copyright-text">© 2016. Quantum UI kit</span>
+                    <a href="" class="footer__copyright-link">Privacy Policy</a>
+                    <a href="" class="footer__copyright-link">Terms of Use</a>
+                </div>
+
+                <div class="footer__payment">
+                    <span class="footer__payment-text">Accepted payment methods</span>
+                    <div class="footer__payment-img">
+                        <img src="assets/img/visa.png" alt="visa">
+                        <img src="assets/img/mastercard.png" alt="mastercard">
+                        <img src="assets/img/paypal.png" alt="paypal">
+                        <img src="assets/img/amazon.png" alt="amazon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>

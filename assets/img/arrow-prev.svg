@@ -1,0 +1,21 @@
+<svg id="arrow_default_button" data-name="arrow default button" xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+        opacity: 0.1;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="placeholder" class="cls-1" cx="31" cy="31" r="30"/>
+  <g id="arrow_icon" data-name="arrow icon">
+    <path id="arrow_icon-2" data-name="arrow icon" class="cls-2" d="M628.576,2125.08l1.393-1.51-7.951-7.56h15.964v-1.98H622.018l7.951-7.49-1.56-1.54L618,2115.01l10.576,10.07" transform="translate(-597 -2084)"/>
+  </g>
+</svg>
